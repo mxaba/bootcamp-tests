@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.min.js"></script>
+    <script src="./js functions/greet.js"> </script>
+    <title>CodeX Bootcamp Tests</title>
+</head>
+<body>
+    <!-- -->
+    <div id="mocha"></div>
+    <script>
+        // the mocha test style to use - we use BDD - Behviour Driven Development
+        mocha.setup('bdd');
+        //ensure the assert function is available
+        var assert = chai.assert;
+    </script>
+
+    <!-- Greet Function Tests -->
+    <script src="./js functions/greet.js" charset="utf-8"></script>
+    <script src="js tests/greet.test.js" charset="utf-8"></script>
+
+    <!-- isFromBellville Function Tests -->
+    <script src="./js functions/isFromBellville.js" charset="utf-8"></script>
+    <script src="./js tests/isFromBellville.test.js" charset="utf-8"></script>
+
+
+    <!-- regCheck function Test -->
+    <script src="./js functions/regCheck.js"></script>
+    <script src="./js tests/regCheck.test.js"></script>
+
+    <!-- countRegNumber Test -->
+    <script src="./js functions/countRegNumber.js"></script>
+    <script src="./js tests/countRegNumber.test.js"></script>
+
+    <!-- isWeekday function Test -->
+    <script src="./js functions/isWeekday.js"></script>
+    <script src="./js tests/isWeekday.test.js"></script>
+
+    <!-- yearsAgo Function Test -->
+    <script src="./js functions/yearsAgo.js"></script>
+    <script src="./js tests/yearsAgo.test.js"></script>
+
+    <!-- countAllPaarl Test -->
+    <script src="./js functions/countAllPaarl.js"></script>
+    <script src="./js tests/countAllPaarl.test.js"></script>
+
+    <!-- countAllFromTown Function Test -->
+    <script src="./js functions/countAllFromTown.js"></script>
+    <script src="./js tests/countAllFromTown.test.js"></script>
+
+    <!-- transportFee Function Test -->
+    <script src="./js functions/transportFee.js"></script>
+    <script src="./js tests/transportFee.test.js"></script>
+
+    <!-- totalPhoneBill Function Test -->
+    <script src="./js functions/totalPhoneBill.js"></script>
+    <script src="./js tests/totalPhoneBill.test.js"></script>
+
+    <!-- fromWhere Function Test -->
+    <script src="./js functions/fromWhere.js"></script>
+    <script src="./js tests/fromWhere.test.js"></script>
+
+    <!-- findItemsOver20 Function Test -->
+    <script src="./js functions/findItemsOver20.js"></script>
+    <script src="./js tests/findItemsOver20.test.js"></script>
+
+    <!-- findItemsOver Test -->
+    <script src="./js functions/findItemsOver.js"></script>
+    <script src="./js tests/findItemsOver.test.js"></script>
+
+    <!-- mostProfitDepartment Test -->
+    <script src="./js functions/mostProfitableDepartment.js"></script>
+    <script src="./js tests/mostProfitableDepartment.test.js"></script>
+
+    <script>
+        // <!-- configure and run mocha -->
+        mocha.checkLeaks();
+        mocha.run();
+    </script>
+</body>
+</html>
