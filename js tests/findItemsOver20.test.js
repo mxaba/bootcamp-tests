@@ -30,7 +30,7 @@ var ans1 = [
     {"name":"apples","qty":37}
 ]
 
-describe("findItemsOver20", function(){
+describe("findItemsOver20 Function", function(){
     it("The function should return all the products that have a quantity higher than 20.", function(){
         assert.deepEqual(ans, findItemsOver20(itemsList))
         assert.deepEqual([], findItemsOver20(itemsList1))

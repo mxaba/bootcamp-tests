@@ -14,7 +14,7 @@ var listOver2 = [
 
 var threshold = 25
 
-describe("findItemsOver", function(){
+describe("findItemsOver Function", function(){
     it("The function should return products that have quantity higher than the threshold.", function(){
         assert.deepEqual([{"name":"apples","qty":40},{"name":"apples","qty":37}], findItemsOver(listOver2, 24))
         assert.deepEqual([{"name":"pears","qty":19},{"name":"bananas","qty":17}], findItemsOver(listOver1, 13))
